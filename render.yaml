@@ -9,9 +9,9 @@ services:
   # ----------------------------------------------------------------------------
   - type: web
     name: sih26090-backend
-    runtime: python
+    env: python
     rootDir: backend
-    plan: starter
+    plan: free
     region: oregon
     buildCommand: pip install -r requirements.txt && alembic upgrade head
     startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --workers 2
@@ -83,7 +83,7 @@ services:
 # ------------------------------------------------------------------------------
 databases:
   - name: sih26090-postgres
-    plan: starter
+    plan: free
     region: oregon
     databaseName: artisan_db
     user: artisan_admin
