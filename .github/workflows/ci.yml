@@ -28,7 +28,7 @@ jobs:
 
       - name: Run Pytest Regression Suite
         run: |
-          python -m pytest tests/ -v
+          PYTHONPATH=. python -m pytest tests/ -v
 
   build-frontend:
     name: Frontend Build Verification

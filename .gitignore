@@ -76,10 +76,11 @@ develop-eggs/
 dist/
 downloads/
 eggs/
-.eggs/
-lib/
-lib64/
-parts/
+# Python virtualenv library dirs (do not ignore frontend/src/lib)
+.venv/lib/
+venv/lib/
+env/lib/
+!frontend/src/lib/
 sdist/
 var/
 wheels/
