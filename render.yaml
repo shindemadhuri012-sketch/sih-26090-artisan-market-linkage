@@ -1,0 +1,91 @@
+# ==============================================================================
+# SIH 26090: Render Infrastructure Blueprint
+# Provisions FastAPI Backend, PostgreSQL 16 + pgvector, and Redis Cache
+# ==============================================================================
+
+services:
+  # ----------------------------------------------------------------------------
+  # FastAPI Production Web Service
+  # ----------------------------------------------------------------------------
+  - type: web
+    name: sih26090-backend
+    runtime: python
+    rootDir: backend
+    plan: starter
+    region: oregon
+    buildCommand: pip install -r requirements.txt && alembic upgrade head
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --workers 2
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: DEBUG
+        value: "false"
+      - key: APP_NAME
+        value: "SIH 26090 Artisan Market Linkage"
+      - key: API_V1_PREFIX
+        value: /api/v1
+      - key: LOG_LEVEL
+        value: INFO
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: "15"
+      - key: REFRESH_TOKEN_EXPIRE_DAYS
+        value: "7"
+      - key: DATABASE_URL
+        fromDatabase:
+          name: sih26090-postgres
+          property: connectionString
+      - key: DATABASE_POOL_SIZE
+        value: "10"
+      - key: DATABASE_MAX_OVERFLOW
+        value: "20"
+      - key: DATABASE_POOL_RECYCLE_SECONDS
+        value: "3600"
+      - key: REDIS_URL
+        fromService:
+          type: redis
+          name: sih26090-redis
+          property: connectionString
+      - key: RATE_LIMIT_PER_MINUTE
+        value: "120"
+      - key: AI_VISION_PROVIDER
+        value: gemini
+      - key: AI_VISION_MODEL
+        value: gemini-1.5-flash
+      - key: AI_EMBEDDING_PROVIDER
+        value: gemini
+      - key: AI_EMBEDDING_MODEL
+        value: gemini-embedding-2
+      - key: EMBEDDING_DIMENSION
+        value: "768"
+      - key: AI_VOICE_PROVIDER
+        value: whisper
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: STORAGE_PROVIDER
+        value: minio
+      - key: CORS_ORIGINS
+        value: '["https://sih-26090-artisan-market-linkage.vercel.app"]'
+
+  # ----------------------------------------------------------------------------
+  # Redis Cache & Rate Limiting Service
+  # ----------------------------------------------------------------------------
+  - type: redis
+    name: sih26090-redis
+    plan: starter
+    region: oregon
+    ipAllowList: []
+
+# ------------------------------------------------------------------------------
+# Managed PostgreSQL 16 Database
+# ------------------------------------------------------------------------------
+databases:
+  - name: sih26090-postgres
+    plan: starter
+    region: oregon
+    databaseName: artisan_db
+    user: artisan_admin
+    postgresMajorVersion: 16
+    ipAllowList: []

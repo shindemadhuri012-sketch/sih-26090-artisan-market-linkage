@@ -178,34 +178,33 @@ The database architecture is managed across 8 linear, unbroken Alembic revisions
 
 ## 7. Action Required for Live Cloud Deployment
 
-To transition the system from **GitHub Release** to **Live Cloud URLs**, follow these standard one-time steps:
+The repository includes ready-to-use **Infrastructure as Code** blueprints (`render.yaml` and `frontend/vercel.json`) that allow 1-click cloud provisioning:
 
-### Step 7.1: Deploy Database (Supabase or Neon)
-1. Create a free PostgreSQL 16 project on [Supabase](https://supabase.com) or [Neon](https://neon.tech).
-2. Enable the `pgvector` extension in the SQL editor:
-   ```sql
-   CREATE EXTENSION IF NOT EXISTS vector;
-   ```
-3. Copy the async connection string: `postgresql+asyncpg://...`
+### Step 7.1: 1-Click Backend, Database & Redis Deployment (Render Blueprint)
+1. Log in to your [Render Dashboard](https://dashboard.render.com).
+2. Click **New +** > **Blueprint**.
+3. Select your repository: `shindemadhuri012-sketch/sih-26090-artisan-market-linkage`.
+4. Render automatically reads [`render.yaml`](render.yaml) and provisions:
+   - **PostgreSQL 16 Database** (`sih26090-postgres`) with auto-configured `DATABASE_URL`.
+   - **Redis Cache** (`sih26090-redis`) with auto-configured `REDIS_URL`.
+   - **FastAPI Web Service** (`sih26090-backend`) running Alembic migrations automatically on build (`pip install -r requirements.txt && alembic upgrade head`) and starting Uvicorn.
+   - Auto-generates a cryptographically strong 64-byte `SECRET_KEY`.
+5. Enter your `GEMINI_API_KEY` when prompted in the Blueprint setup screen.
+6. Click **Apply**.
+7. Once deployed, note your live backend URL (e.g., `https://sih26090-backend.onrender.com`).
 
-### Step 7.2: Deploy Backend API (Render)
-1. Log in to [Render](https://render.com) and click **New > Web Service**.
-2. Select your GitHub repository: `shindemadhuri012-sketch/sih-26090-artisan-market-linkage`.
-3. Set **Root Directory** to `backend`.
-4. Set **Build Command** to: `pip install -r requirements.txt && alembic upgrade head`
-5. Set **Start Command** to: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
-6. Under **Environment Variables**, add the variables from Section 4 (`DATABASE_URL`, `SECRET_KEY`, `GEMINI_API_KEY`, etc.).
-7. Note your live backend URL: `https://sih-26090-backend.onrender.com`.
+### Step 7.2: 1-Click Frontend Deployment (Vercel)
+1. Log in to your [Vercel Dashboard](https://vercel.com).
+2. Click **Add New...** > **Project**.
+3. Import `shindemadhuri012-sketch/sih-26090-artisan-market-linkage`.
+4. Set **Root Directory** to `frontend`.
+5. Vercel automatically detects Next.js 14 and uses [`frontend/vercel.json`](frontend/vercel.json).
+6. Under **Environment Variables**, add:
+   - `BACKEND_URL`: Your live Render backend URL from Step 7.1 (e.g., `https://sih26090-backend.onrender.com`).
+   - `NEXT_PUBLIC_APP_NAME`: `SIH 26090 Artisan Market Linkage`.
+7. Click **Deploy**.
+8. Note your live frontend URL (e.g., `https://sih-26090-artisan-market-linkage.vercel.app`).
 
-### Step 7.3: Deploy Frontend PWA (Vercel)
-1. Log in to [Vercel](https://vercel.com) and click **Add New > Project**.
-2. Import `shindemadhuri012-sketch/sih-26090-artisan-market-linkage`.
-3. Set **Root Directory** to `frontend`.
-4. Framework Preset: **Next.js**.
-5. Under **Environment Variables**, add:
-   - `BACKEND_URL`: `https://sih-26090-backend.onrender.com`
-   - `NEXT_PUBLIC_APP_NAME`: `SIH 26090 Artisan Market Linkage`
-6. Click **Deploy**. Note your live frontend URL: `https://sih-26090-frontend.vercel.app`.
 
 ---
 
