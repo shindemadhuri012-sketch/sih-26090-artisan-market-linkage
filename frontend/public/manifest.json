@@ -1,0 +1,17 @@
+{
+  "name": "SIH 26090: Artisan Market Linkage",
+  "short_name": "CraftLink",
+  "description": "Smart Artisan Market Linkage and Seller Matching Platform",
+  "start_url": "/artisan/products",
+  "display": "standalone",
+  "background_color": "#FFFBEB",
+  "theme_color": "#D97706",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}

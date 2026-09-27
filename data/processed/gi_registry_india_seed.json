@@ -1,0 +1,297 @@
+[
+  {
+    "name": "Pochampally Ikat",
+    "category_name": "Handloom Textiles",
+    "gi_tag_number": "GI-4",
+    "has_gi_tag": true,
+    "origin_state": "Telangana",
+    "origin_district": "Yadadri Bhuvanagiri",
+    "cultural_heritage_description": "Traditional geometric tie-and-dye weaving technique on fine silk and cotton using centuries-old Pagdu Bandhu warp and weft tie-dye processes.",
+    "traditional_raw_materials": [
+      "Mulberry Silk",
+      "Combed Cotton",
+      "Natural Dyes"
+    ],
+    "data_provenance_level": "OFFICIAL_GOVERNMENT_REGISTRY",
+    "is_sample_or_demo": false,
+    "provenance_metadata": {
+      "source_id": "GI-REGISTRY-INDIA",
+      "source_name": "Geographical Indications Registry of India",
+      "source_url": "https://ipindia.gov.in/registered-gls.htm",
+      "custodian": "Office of the Controller General of Patents, Designs & Trade Marks (CGPDTM), DPIIT",
+      "license": "Government Open Data License - India (GODL)",
+      "manifest_id": "bb071257-b141-4f67-ae2e-6a4f1fc37ba1"
+    }
+  },
+  {
+    "name": "Chanderi Saree",
+    "category_name": "Handloom Textiles",
+    "gi_tag_number": "GI-7",
+    "has_gi_tag": true,
+    "origin_state": "Madhya Pradesh",
+    "origin_district": "Ashoknagar",
+    "cultural_heritage_description": "Sheer gossamer-like handwoven silk and cotton textiles famous for delicate gold and silver Zari brocades and Mughal-inspired buttis.",
+    "traditional_raw_materials": [
+      "Mulberry Silk",
+      "Cotton Yarn",
+      "Zari Metallic Thread"
+    ],
+    "data_provenance_level": "OFFICIAL_GOVERNMENT_REGISTRY",
+    "is_sample_or_demo": false,
+    "provenance_metadata": {
+      "source_id": "GI-REGISTRY-INDIA",
+      "source_name": "Geographical Indications Registry of India",
+      "source_url": "https://ipindia.gov.in/registered-gls.htm",
+      "custodian": "Office of the Controller General of Patents, Designs & Trade Marks (CGPDTM), DPIIT",
+      "license": "Government Open Data License - India (GODL)",
+      "manifest_id": "bb071257-b141-4f67-ae2e-6a4f1fc37ba1"
+    }
+  },
+  {
+    "name": "Bidriware",
+    "category_name": "Metalware",
+    "gi_tag_number": "GI-18",
+    "has_gi_tag": true,
+    "origin_state": "Karnataka",
+    "origin_district": "Bidar",
+    "cultural_heritage_description": "Ancient 500-year-old metal inlay art of Bahmani Persian origin crafted from blackened zinc-copper alloy inlaid with pure silver wire.",
+    "traditional_raw_materials": [
+      "Zinc",
+      "Copper",
+      "Pure Silver Sheet and Wire",
+      "Special Bidar Soil"
+    ],
+    "data_provenance_level": "OFFICIAL_GOVERNMENT_REGISTRY",
+    "is_sample_or_demo": false,
+    "provenance_metadata": {
+      "source_id": "GI-REGISTRY-INDIA",
+      "source_name": "Geographical Indications Registry of India",
+      "source_url": "https://ipindia.gov.in/registered-gls.htm",
+      "custodian": "Office of the Controller General of Patents, Designs & Trade Marks (CGPDTM), DPIIT",
+      "license": "Government Open Data License - India (GODL)",
+      "manifest_id": "bb071257-b141-4f67-ae2e-6a4f1fc37ba1"
+    }
+  },
+  {
+    "name": "Madhubani Paintings",
+    "category_name": "Traditional Paintings",
+    "gi_tag_number": "GI-19",
+    "has_gi_tag": true,
+    "origin_state": "Bihar",
+    "origin_district": "Madhubani",
+    "cultural_heritage_description": "Ancient Mithila folk art practiced by women artists featuring mythological narratives, nature motifs, and organic mineral and plant pigments.",
+    "traditional_raw_materials": [
+      "Handmade Paper",
+      "Cloth",
+      "Natural Mineral Pigments",
+      "Bamboo Twig Pens"
+    ],
+    "data_provenance_level": "OFFICIAL_GOVERNMENT_REGISTRY",
+    "is_sample_or_demo": false,
+    "provenance_metadata": {
+      "source_id": "GI-REGISTRY-INDIA",
+      "source_name": "Geographical Indications Registry of India",
+      "source_url": "https://ipindia.gov.in/registered-gls.htm",
+      "custodian": "Office of the Controller General of Patents, Designs & Trade Marks (CGPDTM), DPIIT",
+      "license": "Government Open Data License - India (GODL)",
+      "manifest_id": "bb071257-b141-4f67-ae2e-6a4f1fc37ba1"
+    }
+  },
+  {
+    "name": "Paithani Sarees and Fabrics",
+    "category_name": "Handloom Textiles",
+    "gi_tag_number": "GI-25",
+    "has_gi_tag": true,
+    "origin_state": "Maharashtra",
+    "origin_district": "Chhatrapati Sambhajinagar",
+    "cultural_heritage_description": "Royal Maratha handloom silk sarees distinguished by intricate oblique square borders and peacock pallu woven with solid pure gold Zari.",
+    "traditional_raw_materials": [
+      "Filature Silk",
+      "Charkha Silk",
+      "Gold and Silver Zari"
+    ],
+    "data_provenance_level": "OFFICIAL_GOVERNMENT_REGISTRY",
+    "is_sample_or_demo": false,
+    "provenance_metadata": {
+      "source_id": "GI-REGISTRY-INDIA",
+      "source_name": "Geographical Indications Registry of India",
+      "source_url": "https://ipindia.gov.in/registered-gls.htm",
+      "custodian": "Office of the Controller General of Patents, Designs & Trade Marks (CGPDTM), DPIIT",
+      "license": "Government Open Data License - India (GODL)",
+      "manifest_id": "bb071257-b141-4f67-ae2e-6a4f1fc37ba1"
+    }
+  },
+  {
+    "name": "Blue Pottery of Jaipur",
+    "category_name": "Pottery & Ceramics",
+    "gi_tag_number": "GI-43",
+    "has_gi_tag": true,
+    "origin_state": "Rajasthan",
+    "origin_district": "Jaipur",
+    "cultural_heritage_description": "Distinctive Turko-Persian glazed pottery crafted entirely without clay, using ground quartz stone, Fuller's earth, and copper oxide glaze.",
+    "traditional_raw_materials": [
+      "Quartz Stone",
+      "Fuller's Earth",
+      "Glass",
+      "Natural Gum",
+      "Copper Oxide"
+    ],
+    "data_provenance_level": "OFFICIAL_GOVERNMENT_REGISTRY",
+    "is_sample_or_demo": false,
+    "provenance_metadata": {
+      "source_id": "GI-REGISTRY-INDIA",
+      "source_name": "Geographical Indications Registry of India",
+      "source_url": "https://ipindia.gov.in/registered-gls.htm",
+      "custodian": "Office of the Controller General of Patents, Designs & Trade Marks (CGPDTM), DPIIT",
+      "license": "Government Open Data License - India (GODL)",
+      "manifest_id": "bb071257-b141-4f67-ae2e-6a4f1fc37ba1"
+    }
+  },
+  {
+    "name": "Bastar Dhokra",
+    "category_name": "Metalware",
+    "gi_tag_number": "GI-49",
+    "has_gi_tag": true,
+    "origin_state": "Chhattisgarh",
+    "origin_district": "Bastar",
+    "cultural_heritage_description": "Non-ferrous lost-wax metal casting practiced by indigenous tribal artisans for over 4,000 years, tracing lineage to Mohenjo-daro Dancing Girl.",
+    "traditional_raw_materials": [
+      "Brass Scrap",
+      "Bee Wax",
+      "River Bed Clay",
+      "Coal"
+    ],
+    "data_provenance_level": "OFFICIAL_GOVERNMENT_REGISTRY",
+    "is_sample_or_demo": false,
+    "provenance_metadata": {
+      "source_id": "GI-REGISTRY-INDIA",
+      "source_name": "Geographical Indications Registry of India",
+      "source_url": "https://ipindia.gov.in/registered-gls.htm",
+      "custodian": "Office of the Controller General of Patents, Designs & Trade Marks (CGPDTM), DPIIT",
+      "license": "Government Open Data License - India (GODL)",
+      "manifest_id": "bb071257-b141-4f67-ae2e-6a4f1fc37ba1"
+    }
+  },
+  {
+    "name": "Puri Pattachitra",
+    "category_name": "Traditional Paintings",
+    "gi_tag_number": "GI-53",
+    "has_gi_tag": true,
+    "origin_state": "Odisha",
+    "origin_district": "Puri",
+    "cultural_heritage_description": "Cloth-based scroll painting tradition rooted in Jagannath culture, rendered on treated cotton canvas using stone colors and tamarind seed gum.",
+    "traditional_raw_materials": [
+      "Cotton Canvas",
+      "Tamarind Gum",
+      "Conch Shell White",
+      "Hingula Stone Red"
+    ],
+    "data_provenance_level": "OFFICIAL_GOVERNMENT_REGISTRY",
+    "is_sample_or_demo": false,
+    "provenance_metadata": {
+      "source_id": "GI-REGISTRY-INDIA",
+      "source_name": "Geographical Indications Registry of India",
+      "source_url": "https://ipindia.gov.in/registered-gls.htm",
+      "custodian": "Office of the Controller General of Patents, Designs & Trade Marks (CGPDTM), DPIIT",
+      "license": "Government Open Data License - India (GODL)",
+      "manifest_id": "bb071257-b141-4f67-ae2e-6a4f1fc37ba1"
+    }
+  },
+  {
+    "name": "Kancheepuram Silk",
+    "category_name": "Handloom Textiles",
+    "gi_tag_number": "GI-55",
+    "has_gi_tag": true,
+    "origin_state": "Tamil Nadu",
+    "origin_district": "Kanchipuram",
+    "cultural_heritage_description": "Heavy mulberry silk sarees characterized by Korvai interlocking weave technique connecting contrasting border and body with Gujarat-origin pure Zari.",
+    "traditional_raw_materials": [
+      "Mulberry Raw Silk",
+      "Silver Zari Wire",
+      "Natural Water Pigments"
+    ],
+    "data_provenance_level": "OFFICIAL_GOVERNMENT_REGISTRY",
+    "is_sample_or_demo": false,
+    "provenance_metadata": {
+      "source_id": "GI-REGISTRY-INDIA",
+      "source_name": "Geographical Indications Registry of India",
+      "source_url": "https://ipindia.gov.in/registered-gls.htm",
+      "custodian": "Office of the Controller General of Patents, Designs & Trade Marks (CGPDTM), DPIIT",
+      "license": "Government Open Data License - India (GODL)",
+      "manifest_id": "bb071257-b141-4f67-ae2e-6a4f1fc37ba1"
+    }
+  },
+  {
+    "name": "Srikalahasthi Kalamkari",
+    "category_name": "Traditional Paintings",
+    "gi_tag_number": "GI-104",
+    "has_gi_tag": true,
+    "origin_state": "Andhra Pradesh",
+    "origin_district": "Tirupati",
+    "cultural_heritage_description": "Freehand pen-drawn fabric art style depicting temple scrolls and deities, drawn using bamboo reed pens and dyed with natural vegetable colors.",
+    "traditional_raw_materials": [
+      "Cotton Fabric",
+      "Myrobalan Fruit Juice",
+      "Buffalo Milk",
+      "Alum Mordant"
+    ],
+    "data_provenance_level": "OFFICIAL_GOVERNMENT_REGISTRY",
+    "is_sample_or_demo": false,
+    "provenance_metadata": {
+      "source_id": "GI-REGISTRY-INDIA",
+      "source_name": "Geographical Indications Registry of India",
+      "source_url": "https://ipindia.gov.in/registered-gls.htm",
+      "custodian": "Office of the Controller General of Patents, Designs & Trade Marks (CGPDTM), DPIIT",
+      "license": "Government Open Data License - India (GODL)",
+      "manifest_id": "bb071257-b141-4f67-ae2e-6a4f1fc37ba1"
+    }
+  },
+  {
+    "name": "Lucknow Chikan Craft",
+    "category_name": "Handicrafts & Embroidery",
+    "gi_tag_number": "GI-121",
+    "has_gi_tag": true,
+    "origin_state": "Uttar Pradesh",
+    "origin_district": "Lucknow",
+    "cultural_heritage_description": "Delicate white-on-white shadow embroidery originating in the Mughal courts, featuring 32 distinct hand stitch techniques including Murri, Phanda, and Tepchi.",
+    "traditional_raw_materials": [
+      "Fine Muslin",
+      "Georgette",
+      "Cotton Floss Thread"
+    ],
+    "data_provenance_level": "OFFICIAL_GOVERNMENT_REGISTRY",
+    "is_sample_or_demo": false,
+    "provenance_metadata": {
+      "source_id": "GI-REGISTRY-INDIA",
+      "source_name": "Geographical Indications Registry of India",
+      "source_url": "https://ipindia.gov.in/registered-gls.htm",
+      "custodian": "Office of the Controller General of Patents, Designs & Trade Marks (CGPDTM), DPIIT",
+      "license": "Government Open Data License - India (GODL)",
+      "manifest_id": "bb071257-b141-4f67-ae2e-6a4f1fc37ba1"
+    }
+  },
+  {
+    "name": "Kashmir Pashmina",
+    "category_name": "Handloom Textiles",
+    "gi_tag_number": "GI-144",
+    "has_gi_tag": true,
+    "origin_state": "Jammu & Kashmir",
+    "origin_district": "Srinagar",
+    "cultural_heritage_description": "Ultralight luxury shawls hand-spun from underfleece of Changthangi mountain goats in Ladakh, handwoven on traditional wooden Kashmiri looms.",
+    "traditional_raw_materials": [
+      "Raw Pashm Fleece",
+      "Rice Flour Starch",
+      "Natural Dyes"
+    ],
+    "data_provenance_level": "OFFICIAL_GOVERNMENT_REGISTRY",
+    "is_sample_or_demo": false,
+    "provenance_metadata": {
+      "source_id": "GI-REGISTRY-INDIA",
+      "source_name": "Geographical Indications Registry of India",
+      "source_url": "https://ipindia.gov.in/registered-gls.htm",
+      "custodian": "Office of the Controller General of Patents, Designs & Trade Marks (CGPDTM), DPIIT",
+      "license": "Government Open Data License - India (GODL)",
+      "manifest_id": "bb071257-b141-4f67-ae2e-6a4f1fc37ba1"
+    }
+  }
+]

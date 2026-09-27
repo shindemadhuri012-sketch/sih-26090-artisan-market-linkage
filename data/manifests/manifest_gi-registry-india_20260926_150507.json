@@ -1,0 +1,19 @@
+{
+  "manifest_id": "bb071257-b141-4f67-ae2e-6a4f1fc37ba1",
+  "source_id": "GI-REGISTRY-INDIA",
+  "source_name": "Geographical Indications Registry of India",
+  "source_url": "https://ipindia.gov.in/registered-gls.htm",
+  "custodian": "Office of the Controller General of Patents, Designs & Trade Marks (CGPDTM), DPIIT",
+  "license_type": "Government Open Data License - India (GODL)",
+  "retrieval_timestamp": "2026-09-26T15:05:07.443510+00:00",
+  "raw_file_path": "data/raw\\gi_registry_handicrafts_official.json",
+  "raw_file_sha256": "7665d0c44531a0422df3eee94d066b3d2cb74c736a7af622020dc47f95cd3873",
+  "raw_record_count": 12,
+  "validated_record_count": 12,
+  "rejected_record_count": 0,
+  "deduplicated_record_count": 0,
+  "transformation_version": "1.0.0",
+  "execution_status": "COMPLETED_SUCCESS",
+  "rejection_reasons": {},
+  "summary_notes": "Successfully extracted 12 authenticated records from Geographical Indications Registry of India."
+}

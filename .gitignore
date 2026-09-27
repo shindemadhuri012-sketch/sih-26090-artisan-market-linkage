@@ -1,0 +1,121 @@
+# ==============================================================================
+# SIH 26090: Git Ignore Rules
+# ==============================================================================
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+System Volume Information/
+bin/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.cert
+*recovery*
+*recovery-codes*
+github-recovery-codes.txt
+
+# Non-Project Personal Folders & Files on E:\ Drive
+/Bootstrap class notes/
+/cognifyz pvt.ltd internship/
+/cognifyz pvt.ltd internship.zip
+/CSS class lecture notes/
+/final year projects/
+/gpt 4o_files/
+/gpt 4o.html
+/HTML notes/
+/html projects/
+/IMP Projects/
+/its happend with me/
+/JAVA class lecture notes/
+/madhuri python project/
+/my python projects/
+/PythonProject/
+/Quick Heal/
+/SIH2026-BIS-Assistant/
+/SIH2026-BIS-Assistant.zip
+/student department chatbot project/
+/tp/
+/tp.rar
+/*_qhlogs.*
+/!qhlogs.*
+/!!v40fY_qhlogs.txt
+/177lgNx_qhlogs.csv
+/aX4sujT_qhlogs.doc
+/tl33R6q_qhlogs.log
+/zfWMhrg_qhlogs.xls
+/*.rar
+/*.zip
+/Bootstrapd.pdf
+/Exam_form 6th sem.pdf
+/Gemma_HuggingFace.ipynb - Colab.pdf
+/images.jpg
+/pycharm-community-*.exe
+/skin cancer.jpg
+/ThirdPartyNotices.txt
+/types-of-skin-cancer-pictures-*.avif
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Node.js & Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.next/
+out/
+
+# Database & Local Storage
+*.sqlite
+*.sqlite3
+*.db
+local_storage/
+uploads/
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data Ingestion Working Dumps (Keep manifests and processed seeds)
+data/raw/*.tmp
+data/raw/*.download

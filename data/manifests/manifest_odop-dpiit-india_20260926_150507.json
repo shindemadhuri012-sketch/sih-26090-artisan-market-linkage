@@ -1,0 +1,19 @@
+{
+  "manifest_id": "ef08a3e9-8d30-415b-997e-0a272f3fa12f",
+  "source_id": "ODOP-DPIIT-INDIA",
+  "source_name": "One District One Product (ODOP) National Initiative",
+  "source_url": "https://www.investindia.gov.in/one-district-one-product",
+  "custodian": "Department for Promotion of Industry and Internal Trade (DPIIT) & Invest India",
+  "license_type": "Government Open Data License - India (GODL)",
+  "retrieval_timestamp": "2026-09-26T15:05:07.464086+00:00",
+  "raw_file_path": "data/raw\\odop_catalogue_official.json",
+  "raw_file_sha256": "82a42774263451cdb2b2ca25b62261c04aacbb5521b05965957556d7c9ca726b",
+  "raw_record_count": 10,
+  "validated_record_count": 10,
+  "rejected_record_count": 0,
+  "deduplicated_record_count": 0,
+  "transformation_version": "1.0.0",
+  "execution_status": "COMPLETED_SUCCESS",
+  "rejection_reasons": {},
+  "summary_notes": "Successfully extracted 10 authenticated records from One District One Product (ODOP) National Initiative."
+}
